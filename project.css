@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(107, 158, 156);
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+/* cards making */
+.child{
+    height: 30vh;
+    width: 25vw;
+    box-shadow: 2px 2px 3px gray;
+    background-color: white;
+    margin: 20px;
+    
+
+}
+.main{
+    display: flex;
+    position: relative;
+    left: 8vw;
+    top: 4vh;
+
+}
+.child1,.child3{
+    position: relative;
+    top: 20vh;
+    
+}
+b{
+    position: relative;
+    top:15px;
+    left: 20px;
+}
+i{
+    font-size: 40px;
+    position: relative;
+    left:22vw;
+    top: 10vh;
+}
+.child1{
+    border-top: 3px solid rgb(0, 180, 251);
+}
+.sub_child1{
+    border-top: 3px solid brown;
+
+}
+.sub_child2{
+    border-top: 3px solid orange;
+
+}
+.child3{
+    
+        border-top: 3px solid rgb(0, 181, 253);
+}
+p{
+    text-align: center;
+}
